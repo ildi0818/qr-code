@@ -2,7 +2,11 @@
 
 body {
     background-color: hsl(212, 45%, 89%);
-    margin: 0;
+    /* margin: 0; */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 div {
@@ -11,11 +15,11 @@ div {
     height: 350px;
     padding: 11px;
     border-radius: 15px;
-    position: absolute;
+    /* position: absolute;
     left: 50%;
     margin-left: -120px;
     top: 50%;
-    margin-top: -120px;
+    margin-top: -120px; */
 }
 
 img {
